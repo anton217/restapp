@@ -1,0 +1,23 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "dailysalestotal",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "dailytipstotal",
+            "fieldType": "Double"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "addcouponvalue",
+            "fieldType": "Double"
+        }
+    ],
+    "changelogDate": "20151104032212",
+    "dto": "no",
+    "pagination": "no"
+}
