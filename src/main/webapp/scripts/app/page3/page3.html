@@ -1,0 +1,15 @@
+<h1>Order Summary</h1>
+<h4>Your transaction is now complete. Please find below the summary of your purchase(s)</h4>
+
+<ul>
+    <li ng-repeat="item in shoppingCart">
+       Name: {{item.title}} <br>
+       Description: {{item.description}} <br>
+       Cost:  {{item.cost}} <br>
+       Quantity purchased: {{item.count}} <br>
+    </li>
+    <br>
+    --------------------------------
+   <h4> Total Charge: ${{ sumTotal() }} </h4>
+    --------------------------------
+</ul>
